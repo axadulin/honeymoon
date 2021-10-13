@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150sp"
+    android:gravity="center"
+
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+    <ImageView
+<<<<<<< HEAD
+
+
+        android:layout_centerVertical="true"
+=======
+        android:scaleType="center"
+        android:src="@drawable/client"
+>>>>>>> 9d3b8c4 (Second one)
+        android:id="@+id/nav_img_logo"
+        android:layout_width="75sp"
+        android:layout_height="75sp"
+   />
+
+
+
+        <TextView
+<<<<<<< HEAD
+          android:gravity="center"
+
+
+=======
+            android:gravity="center"
+>>>>>>> 9d3b8c4 (Second one)
+            android:textColor="@color/black"
+            android:id="@+id/nav_txt_fio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+<<<<<<< HEAD
+            android:text="FISh"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:gravity="center"
+
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/nav_txt_fio"
+            android:id="@+id/nav_txt_fermerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fermer xo'jaligi nomi" />
+<View
+    android:layout_marginTop="5dp"
+    android:background="#4CAF50"
+=======
+            android:text="Mijozning ismi"
+            android:textSize="18sp"/>
+
+
+<View
+    android:layout_marginTop="5dp"
+    android:background="@color/normal"
+>>>>>>> 9d3b8c4 (Second one)
+    android:layout_width="match_parent"
+    android:layout_height="4dp"/>
+</LinearLayout>

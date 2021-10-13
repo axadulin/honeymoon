@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txt_header">22sp</dimen>
+    <dimen name="txt_usual1">16sp</dimen>
+    <dimen name="txt_usual2">18sp</dimen>
+    <dimen name="btn_txtsize">16sp</dimen>
+    <dimen name="edHeightSize">50sp</dimen>
+    <dimen name="txt_categories">28sp</dimen>
+    <dimen name="rv_padding10">10sp</dimen>
+    <dimen name="rv_padding20">40sp</dimen>
+    <dimen name="rv_padding8">10sp</dimen>
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_margin="10dp"
+
+    app:cardElevation="8dp"
+    card_view:cardCornerRadius="18dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/lightBack"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/txtClientName"
+            android:layout_width="240sp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/client"
+            android:drawablePadding="10dp"
+            android:padding="6dp"
+            android:text="Mijoz 1"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtClientPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtClientName"
+
+            android:layout_marginLeft="4dp"
+            android:drawableLeft="@drawable/phone2"
+            android:drawablePadding="10dp"
+            android:padding="6dp"
+            android:text="+998 97 777 77 77" />
+
+        <ImageButton
+            android:clickable="true"
+            android:id="@+id/btnEdit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/rounded"
+            android:src="@drawable/edit" />
+
+        <LinearLayout
+<<<<<<< HEAD
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+=======
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            >
+>>>>>>> 9d3b8c4 (Second one)
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnReturn"
+                android:layout_width="150dp"
+<<<<<<< HEAD
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/rounded"
+                android:textSize="18dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:elevation="2dp"
+                android:gravity="center"
+                android:text="Vozvrat" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDetail"
+                android:textSize="18dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:layout_width="150dp"
+                android:clickable="true"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded"
+                android:elevation="2dp"
+=======
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded"
+                android:clickable="true"
+
+                android:fontFamily="@font/montserrat_semibold"
+                android:gravity="center"
+                android:text="Qaytarish" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDetail"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded"
+                android:clickable="true"
+
+                android:fontFamily="@font/montserrat_semibold"
+>>>>>>> 9d3b8c4 (Second one)
+                android:gravity="center"
+                android:text="Mijoz haqida" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activities.EditClientActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/appBar"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_height="?attr/actionBarSize"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+<<<<<<< HEAD
+            android:inputType="text"
+            android:id="@+id/edClientName1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded2"
+            android:elevation="4dp"
+            android:hint="Mijozning ismi"
+            android:padding="8dp" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinnerClientType1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/edClientName1"
+        android:layout_marginTop="10dp"
+        android:padding="8dp" />
+
+        <EditText
+            android:inputType="phone"
+            android:id="@+id/edClientPhone1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+=======
+            android:id="@+id/edClientName1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edHeightSize"
+            android:background="@drawable/rounded2"
+            android:elevation="4dp"
+            android:hint="Mijozning ismi"
+            android:inputType="text"
+            android:padding="8dp" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinnerClientType1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edHeightSize"
+            android:layout_below="@id/edClientName1"
+            android:layout_marginTop="10dp"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/edClientPhone1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edHeightSize"
+>>>>>>> 9d3b8c4 (Second one)
+            android:layout_below="@id/spinnerClientType1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded2"
+            android:elevation="4dp"
+            android:hint="Telefon raqam 1"
+<<<<<<< HEAD
+            android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/edClientPhone2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/edClientPhone1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded2"
+        android:elevation="4dp"
+        android:hint="Telefon raqam 2"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/edClientAddress1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/edClientPhone2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded2"
+        android:elevation="4dp"
+        android:hint="Manzil"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/edClientOrientir1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/edClientAddress1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded2"
+        android:elevation="4dp"
+        android:hint="Orientir"
+        android:padding="8dp" />
+=======
+            android:inputType="phone"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/edClientPhone2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edHeightSize"
+            android:layout_below="@id/edClientPhone1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded2"
+            android:elevation="4dp"
+            android:hint="Telefon raqam 2"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/edClientAddress1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edHeightSize"
+            android:layout_below="@id/edClientPhone2"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded2"
+            android:elevation="4dp"
+            android:hint="Manzil"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/edClientOrientir1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edHeightSize"
+            android:layout_below="@id/edClientAddress1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded2"
+            android:elevation="4dp"
+            android:hint="Orientir"
+            android:padding="8dp" />
+>>>>>>> 9d3b8c4 (Second one)
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/edClientOrientir1"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAccept1"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded"
+            android:clickable="true"
+            android:elevation="2dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:gravity="center"
+            android:text="Tasdiqlash"
+<<<<<<< HEAD
+            android:textSize="18dp" />
+=======
+             />
+>>>>>>> 9d3b8c4 (Second one)
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCancel1"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded"
+            android:clickable="true"
+            android:elevation="2dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:gravity="center"
+            android:text="Bekor qilish"
+<<<<<<< HEAD
+            android:textSize="18dp" />
+=======
+           />
+>>>>>>> 9d3b8c4 (Second one)
+
+
+    </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

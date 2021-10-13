@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:id="@+id/nav_chart"
+
+            android:title="Asosiy ko'rsatkichlar" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_settings"-->
+<!--            android:icon="@drawable/settings"-->
+<!--            android:title="Sozlamalar" />-->
+        <item
+            android:id="@+id/nav_clients"
+
+            android:title="Mijozlar" />
+        <item
+            android:id="@+id/nav_topshiruv"
+
+            android:title="Topshiruv" />
+        <item
+            android:id="@+id/nav_leasing"
+
+            android:title="Nasiyalar" />
+        <item
+            android:id="@+id/nav_profile"
+
+            android:title="Sozlamalar" />
+        <item
+            android:id="@+id/nav_about"
+
+            android:title="Biz haqimizda" />
+        <item
+            android:id="@+id/nav_exit"
+
+            android:title="Chiqish" />
+
+
+</menu>

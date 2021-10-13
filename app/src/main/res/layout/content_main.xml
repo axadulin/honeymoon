@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+<LinearLayout
+    android:id="@+id/ln1"
+    android:padding="10dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <LinearLayout
+<<<<<<< HEAD
+=======
+        android:background="@color/lightBack"
+>>>>>>> 9d3b8c4 (Second one)
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:elevation="8dp"
+
+        android:id="@+id/dataByUzb"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <TextView
+<<<<<<< HEAD
+            android:text="DatabyUZB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+
+            android:text="1056"
+=======
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="O'zbekiston bo'yicha sotuvlar soni:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="11 525 dona"
+            android:fontFamily="@font/montserrat_bold"
+>>>>>>> 9d3b8c4 (Second one)
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+<<<<<<< HEAD
+=======
+        android:background="@color/lightBack"
+>>>>>>> 9d3b8c4 (Second one)
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:elevation="8dp"
+
+        android:id="@+id/dataByRegion"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <TextView
+<<<<<<< HEAD
+            android:text="DatabyRegion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+
+            android:text="1056"
+=======
+            android:fontFamily="@font/montserrat_medium"
+            android:textColor="@color/black"
+            android:text="Filial bo'yicha mahsulot soni:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="18sp"
+            android:fontFamily="@font/montserrat_bold"
+            android:textColor="@color/black"
+            android:text="1056 dona"
+>>>>>>> 9d3b8c4 (Second one)
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
+
+</RelativeLayout>

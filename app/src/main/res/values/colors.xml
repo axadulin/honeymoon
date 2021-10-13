@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light">#ffff72</color>
+    <color name="lightBack">#4BFFFF72</color>
+    <color name="normal">#ffeb3b</color>
+    <color name="dark">#c8b900</color>
+    <color name="purple_200">#ffff72</color>
+    <color name="purple_500">#ffeb3b</color>
+    <color name="purple_700">#c8b900</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+<<<<<<< HEAD
+=======
+    <color name="black2">#D2000000</color>
+>>>>>>> 9d3b8c4 (Second one)
+    <color name="white">#FFFFFFFF</color>
+</resources>
